@@ -8,7 +8,7 @@ import { FILE } from "./reducer";
 import { useRoom } from "./StateProvider";
 import Error from "./component/Error";
 // export const socket = io.connect("http://localhost:3000");
-export const socket = io.connect("https://backend-app05.onrender.com/");
+export const socket = io.connect("https://backend-0510.onrender.com/");
 const App = () => {
   const [{ room }, dispatch] = useRoom();
   return (
