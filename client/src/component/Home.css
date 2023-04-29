@@ -1,0 +1,114 @@
+.login_box {
+    height: 350px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-content: center;
+    background-color: #0e347b;
+    margin: 100px auto 150px auto;
+    padding: 30px;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 20px 10px rgba(150, 147, 218, 0.153); */
+
+}
+
+.login_title {
+    font-size: 50px;
+    position: relative;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px;
+    border-radius: 0px 0px 20px 0px;
+    box-shadow: rgba(115, 138, 244, 0.993) 3px 4px 5px;
+}
+
+.login_title p {
+    position: relative;
+    margin: 0 0 0 0;
+    border: 2px;
+    color: #e2d9ff;
+    text-shadow: rgb(0, 0, 0) 3px 3px 5px;
+}
+
+.login_box>.login_body {
+    margin: 60px auto 40px auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.login_box>.login_body>input,
+.login_box>.login_body>input {
+    height: 30px;
+    width: 270px;
+    border: none;
+    position: relative;
+    padding: 5px;
+    font-size: 25px;
+    color: #070e37;
+    background-color: #e4e3e384;
+    display: flex;
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+.login_box>.login_body>input::placeholder,
+.login_box>.login_body>input::placeholder {
+    color: rgba(12, 5, 74, 0.508);
+}
+
+.login_box>.login_body>input:hover,
+.login_box>.login_body>input:hover,
+.login_box>.login_body>input:focus,
+.login_box>.login_body>input:focus {
+    background-color: #e4e3e39c;
+    border: 1px solid #86d2eb;
+}
+
+.login_box>.login_body>.login_boxRoom,
+.login_box>.login_body>.login_boxUserName,
+.login_box>.login_body>.login_join {
+    height: 50px;
+    position: relative;
+    width: inherit;
+    margin: 10px 0px 10px 0px;
+
+}
+
+.login_box>.login_body>input {
+    position: absolute;
+    display: flex;
+    padding: 1px 15px 1px 15px;
+    border: none;
+    outline-width: 0;
+    font-size: 20px;
+    font-weight: lighter;
+    border-radius: 5px;
+
+}
+
+.login_join {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: #ededed;
+    height: 20px;
+    border-radius: 10px;
+    border: 0px;
+    cursor: pointer;
+    font-family: 'Montserrat',
+        sans-serif;
+    color: #17305f;
+}
+
+.login_box>.login_body>button:hover {
+    border: 2px solid #142748;
+    background-color: #E4E3E3;
+
+}

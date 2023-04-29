@@ -1,0 +1,55 @@
+.container {
+    min-height: 40px;
+    min-width: 60px;
+    width: auto;
+    max-width: 200px;
+    max-height: auto;
+    position: relative;
+    margin: 10px 5px 10px 5px;
+    padding: 10px 10px 5px 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 3px 4px 5px;
+}
+
+#user>.container {
+    border-radius: 12px 0px 12px 12px;
+
+    background-image: linear-gradient(135deg, #ed7bffb2 10%, #79a7f0d7 100%);
+
+}
+#receiver>.container {
+    background-image: linear-gradient(135deg, #ff6b6b 10%, #b486ff 100%);
+    border-radius: 0px 12px 12px 12px;
+}
+
+.sender_box {
+    display: flex;
+}
+
+#user {
+    justify-content: right;
+}
+
+#receiver {
+    justify-content: left;
+}
+
+.sender_boxText {
+    position: relative;
+    width: inherit;
+    overflow-wrap: break-word;
+    font-size: 20px;
+    color: rgb(24, 75, 114);
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.sender_boxFooter {
+    display: flex;
+    position: relative;
+    justify-content: right;
+    font-size: 10px;
+    margin-top: 5px;
+    color: rgba(108, 70, 87, 0.544);
+    font-family: 'Poppins', sans-serif;
+
+}

@@ -1,0 +1,120 @@
+.chat {
+    /* box-shadow: 0px 0px 20px 10px rgba(150, 147, 218, 0.153); */
+    height: 550px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto 80px auto;
+    position: relative;
+    border-radius: 12px;
+    background-color: #b6b1df;
+    background-image: url("https://www.transparenttextures.com/patterns/diamond-upholstery.png");
+}
+
+.chat_title {
+    height: 60px;
+    width: inherit;
+    background-image: linear-gradient(100deg, #263ce6 10%, #e626a0 100%);
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat_title p {
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    color: #ffd9d9;
+    text-shadow: rgb(0, 0, 0) 3px 3px 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.chat_body {
+    height: 450px;
+    position: relative;
+    width: inherit;
+
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(176, 194, 193);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: #709ed6c0;
+
+}
+
+.chat_sender {
+    height: auto;
+    position: relative;
+    width: 470px;
+    margin-bottom: 20px;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+    z-index: 100;
+}
+
+.chat_sender>.chat_senderInput {
+    outline: none;
+    border: none;
+    height: 38px;
+    font-size: 15px;
+    width: 426px;
+    background-color: #2e3c99;
+    z-index: 1;
+    color: #d2d0fb;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px 0px 0px 5px;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.chat_sender>input::placeholder {
+    font-family: 'Poppins', sans-serif;
+    color: #d2d0fb9a;
+}
+
+.chat_sender>.chat_senderButton {
+    z-index: 1;
+    height: 40px;
+    position: relative;
+    width: 46px;
+    outline: none;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    background-color: #2e3c99;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.chat_sender>.chat_senderButton>.chat_senderButtonIcon {
+    height: 25px;
+    width: 30px;
+    color: #fb094e;
+}
+
+.chat_sender>.chat_senderButton>.chat_senderButtonIcon:hover {
+    height: 28px;
+    width: 30px;
+    color: #ff7878;
+}
+
+body {
+    background-color: #8a80c2;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-dotted-2.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
