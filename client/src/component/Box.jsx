@@ -11,4 +11,4 @@ const Box = ({ message,box,time }) => {
     ); 
 };
 
-export default Box
+export default Box;
